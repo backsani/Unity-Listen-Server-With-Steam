@@ -1,0 +1,33 @@
+{
+  "name": "com.magnetic.steamlobby",
+  "version": "0.1.0",
+  "displayName": "Magnetic Steam Lobby",
+  "description": "Steam 로비로 플레이어를 모으고, 게임 시작 시 호스트 PC에서 Netcode for GameObjects 리슨 서버를 실행하는 세션 패키지. 서버 매니저(최소/최대 인원 프리셋), 비밀번호·코드 로비, 난입 승인 대기열, Steam Networking Sockets 트랜스포트, 한국어 로그를 포함한다.",
+  "unity": "6000.0",
+  "author": {
+    "name": "backsani"
+  },
+  "keywords": [
+    "steam",
+    "steamworks",
+    "lobby",
+    "netcode",
+    "multiplayer",
+    "listen-server"
+  ],
+  "dependencies": {
+    "com.unity.netcode.gameobjects": "2.13.3"
+  },
+  "samples": [
+    {
+      "displayName": "Korean Log Console",
+      "description": "한국어 로그를 게임 화면(F1)에 보여주고 파일로 저장하는 콘솔.",
+      "path": "Samples~/KoreanLog"
+    },
+    {
+      "displayName": "Lobby UI",
+      "description": "ServerManager 를 사용하는 uGUI 로비 화면과 씬 자동 구성 도구 (Tools > Magnetic Steam Lobby > Build Lobby Scene).",
+      "path": "Samples~/LobbyUI"
+    }
+  ]
+}

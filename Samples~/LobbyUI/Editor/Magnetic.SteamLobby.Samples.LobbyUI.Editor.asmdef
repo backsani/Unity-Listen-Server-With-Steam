@@ -1,0 +1,23 @@
+{
+    "name": "Magnetic.SteamLobby.Samples.LobbyUI.Editor",
+    "rootNamespace": "Magnetic.SteamLobby.Samples.EditorTools",
+    "references": [
+        "Magnetic.SteamLobby",
+        "Magnetic.SteamLobby.Editor",
+        "Magnetic.SteamLobby.Samples.LobbyUI",
+        "Unity.Netcode.Runtime",
+        "UnityEngine.UI",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

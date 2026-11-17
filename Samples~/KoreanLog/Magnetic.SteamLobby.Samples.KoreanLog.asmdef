@@ -1,0 +1,17 @@
+{
+    "name": "Magnetic.SteamLobby.Samples.KoreanLog",
+    "rootNamespace": "Magnetic.SteamLobby.Samples",
+    "references": [
+        "Magnetic.SteamLobby",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

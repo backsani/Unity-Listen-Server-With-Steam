@@ -1,0 +1,25 @@
+{
+    "name": "Magnetic.SteamLobby.Editor",
+    "rootNamespace": "Magnetic.SteamLobby.EditorTools",
+    "references": [
+        "Magnetic.SteamLobby",
+        "Unity.Netcode.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.rlabrecque.steamworks.net",
+            "expression": "",
+            "define": "STEAMWORKS_NET"
+        }
+    ],
+    "noEngineReferences": false
+}
